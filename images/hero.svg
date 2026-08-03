@@ -1,0 +1,125 @@
+<svg width="900" height="380" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#5fb8e8"/>
+    <stop offset="100%" stop-color="#cdeffd"/>
+  </linearGradient>
+  <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#8bc34a"/>
+    <stop offset="100%" stop-color="#5a9216"/>
+  </linearGradient>
+</defs>
+
+<!-- sky -->
+<rect x="0" y="0" width="900" height="290" fill="url(#sky)"/>
+
+<!-- sun -->
+<g stroke="#f4a53a" stroke-width="6" stroke-linecap="round">
+  <line x1="110" y1="10" x2="110" y2="28"/>
+  <line x1="110" y1="132" x2="110" y2="150"/>
+  <line x1="50" y1="80" x2="32" y2="80"/>
+  <line x1="188" y1="80" x2="206" y2="80"/>
+  <line x1="67" y1="37" x2="54" y2="24"/>
+  <line x1="153" y1="123" x2="166" y2="136"/>
+  <line x1="153" y1="37" x2="166" y2="24"/>
+  <line x1="67" y1="123" x2="54" y2="136"/>
+</g>
+<circle cx="110" cy="80" r="45" fill="#ffd166" stroke="#2b2b2b" stroke-width="3"/>
+
+<!-- grass -->
+<path d="M0,270 Q50,255 100,270 T200,270 T300,270 T400,270 T500,270 T600,270 T700,270 T800,270 T900,270 V380 H0 Z" fill="url(#grass)" stroke="#2b2b2b" stroke-width="3"/>
+
+<!-- pool wall (front) -->
+<path d="M400,255 L400,325 A210,42 0 0,0 820,325 L820,255 Z" fill="#c9c9c9" stroke="#2b2b2b" stroke-width="4"/>
+<g stroke="#9a9a9a" stroke-width="3">
+  <line x1="470" y1="262" x2="470" y2="318"/>
+  <line x1="540" y1="266" x2="540" y2="322"/>
+  <line x1="610" y1="268" x2="610" y2="324"/>
+  <line x1="680" y1="266" x2="680" y2="322"/>
+  <line x1="750" y1="262" x2="750" y2="318"/>
+</g>
+
+<!-- pool rim + water -->
+<ellipse cx="610" cy="255" rx="210" ry="48" fill="#c9c9c9" stroke="#2b2b2b" stroke-width="4"/>
+<ellipse cx="610" cy="255" rx="192" ry="38" fill="#2fb6f0"/>
+<path d="M440,255 Q480,240 520,255 T600,255 T680,255 T780,255" fill="none" stroke="#8fe0ff" stroke-width="4" opacity="0.8"/>
+<path d="M440,265 Q480,252 520,265 T600,265 T680,265 T780,265" fill="none" stroke="#8fe0ff" stroke-width="3" opacity="0.6"/>
+
+<!-- PVC arc pipe -->
+<path d="M300,330 L300,240 C300,120 420,90 500,140" fill="none" stroke="#2b2b2b" stroke-width="16" stroke-linecap="round"/>
+<path d="M300,330 L300,240 C300,120 420,90 500,140" fill="none" stroke="#f4f4f4" stroke-width="10" stroke-linecap="round"/>
+<circle cx="300" cy="240" r="10" fill="#dcdcdc" stroke="#2b2b2b" stroke-width="3"/>
+<circle cx="360" cy="132" r="10" fill="#dcdcdc" stroke="#2b2b2b" stroke-width="3"/>
+<!-- support post feet -->
+<path d="M285,330 L315,330 L320,345 L280,345 Z" fill="#8a8a8a" stroke="#2b2b2b" stroke-width="3"/>
+
+<!-- water spray from nozzle -->
+<g stroke="#8fe0ff" stroke-width="5" fill="none" stroke-linecap="round">
+  <path d="M500,145 C510,165 505,185 515,205"/>
+  <path d="M505,150 C520,168 512,190 528,208"/>
+  <path d="M495,155 C498,175 492,192 500,210"/>
+</g>
+<g fill="#bdeeff">
+  <circle cx="518" cy="212" r="4"/>
+  <circle cx="530" cy="216" r="5"/>
+  <circle cx="503" cy="218" r="3.5"/>
+  <circle cx="512" cy="228" r="3"/>
+</g>
+<!-- splash on water -->
+<g stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.85">
+  <path d="M495,250 q10,-14 20,0"/>
+  <path d="M515,254 q10,-14 20,0"/>
+  <path d="M535,250 q10,-14 20,0"/>
+</g>
+
+<!-- figure in pool celebrating -->
+<g>
+  <path d="M475,262 q3,-10 10,0" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.7"/>
+  <line x1="463" y1="248" x2="452" y2="215" stroke="#e0a874" stroke-width="9" stroke-linecap="round"/>
+  <line x1="483" y1="248" x2="497" y2="212" stroke="#e0a874" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="450" cy="208" r="7" fill="#e0a874"/>
+  <rect x="490" y="200" width="14" height="18" rx="3" fill="#c9c9c9" stroke="#2b2b2b" stroke-width="2"/>
+  <circle cx="473" cy="250" r="16" fill="#e0a874" stroke="#2b2b2b" stroke-width="2.5"/>
+  <rect x="463" y="244" width="20" height="7" rx="3" fill="#2b2b2b"/>
+  <path d="M465,260 q8,6 16,0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- lounge chair -->
+<g>
+  <path d="M110,320 L230,320 L245,335 L95,335 Z" fill="#e63946" stroke="#2b2b2b" stroke-width="3"/>
+  <path d="M110,320 L150,270 L235,270 L230,320 Z" fill="#f1a7ad" stroke="#2b2b2b" stroke-width="3"/>
+  <line x1="100" y1="335" x2="92" y2="352" stroke="#2b2b2b" stroke-width="4"/>
+  <line x1="240" y1="335" x2="248" y2="352" stroke="#2b2b2b" stroke-width="4"/>
+</g>
+
+<!-- person lounging (local coords relative to head at origin, +x/+y toward feet along seat slope) -->
+<g transform="translate(163,281) rotate(28)" stroke="#2b2b2b" stroke-linejoin="round">
+  <!-- resting arm (under torso, drawn first) -->
+  <path d="M18,0 Q38,16 58,8" fill="none" stroke="#e0a874" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- legs -->
+  <rect x="108" y="-6" width="54" height="15" rx="7" fill="#e0a874" stroke-width="2.5"/>
+  <ellipse cx="164" cy="1" rx="8" ry="5" fill="#2b2b2b"/>
+  <!-- shorts -->
+  <rect x="86" y="-7" width="28" height="18" rx="8" fill="#c98b4a" stroke-width="2.5"/>
+  <!-- torso / tank top -->
+  <rect x="8" y="-8" width="82" height="20" rx="10" fill="#f5f5f5" stroke-width="2.5"/>
+  <!-- can resting on belly -->
+  <rect x="44" y="-20" width="11" height="15" rx="2" fill="#c9c9c9" stroke-width="2"/>
+  <!-- head -->
+  <circle cx="0" cy="0" r="15" fill="#e0a874" stroke-width="2.5"/>
+  <!-- sunglasses -->
+  <rect x="-10" y="-3" width="19" height="6" rx="3" fill="#2b2b2b" stroke="none"/>
+  <!-- trucker cap -->
+  <ellipse cx="1" cy="-11" rx="13" ry="8" fill="#2b3a67" stroke-width="2"/>
+  <rect x="9" y="-11" width="12" height="4" rx="2" fill="#2b3a67" stroke-width="2"/>
+</g>
+
+<!-- cooler -->
+<g>
+  <rect x="318" y="326" width="44" height="34" rx="4" fill="#e63946" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="315" y="318" width="50" height="14" rx="4" fill="#f4f4f4" stroke="#2b2b2b" stroke-width="3"/>
+  <rect x="329" y="304" width="10" height="16" rx="2" fill="#c9c9c9" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="343" y="302" width="10" height="18" rx="2" fill="#c9c9c9" stroke="#2b2b2b" stroke-width="2"/>
+</g>
+
+</svg>
