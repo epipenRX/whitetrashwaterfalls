@@ -155,6 +155,40 @@ h2 {
   padding: 0.25rem 0;
 }
 
+.contact-list a {
+  color: var(--deep-blue);
+}
+
+.affiliate-badge {
+  background: linear-gradient(135deg, #1b8f7a, #ff8552);
+  padding: 1.25rem 1.5rem;
+}
+
+.affiliate-badge a {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.affiliate-badge img {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+}
+
+.affiliate-badge span {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.affiliate-badge strong {
+  font-weight: 800;
+}
+
 footer {
   text-align: center;
   padding: 1.5rem;
