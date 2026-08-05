@@ -269,6 +269,26 @@ h2 {
   color: var(--navy);
 }
 
+.stars {
+  color: #d9a441;
+  font-size: 1.1rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
+.testimonial-author {
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--navy);
+  font-size: 0.9rem;
+}
+
 .schulerco-photos {
   margin-top: 1.75rem;
 }
