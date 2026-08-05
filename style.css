@@ -164,16 +164,16 @@ h2 {
   box-shadow: 0 6px 14px rgba(15, 44, 77, 0.18);
 }
 
-#sound-familiar .card {
+#why-us .card {
   border-top-color: var(--red);
 }
 
-#sound-familiar .card-grid {
+#why-us .card-grid {
   grid-template-columns: repeat(2, 1fr);
 }
 
 @media (max-width: 600px) {
-  #sound-familiar .card-grid {
+  #why-us .card-grid {
     grid-template-columns: 1fr;
   }
 }
