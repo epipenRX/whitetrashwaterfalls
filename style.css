@@ -269,34 +269,32 @@ h2 {
   color: var(--navy);
 }
 
-.affiliate-badge {
-  background: linear-gradient(135deg, var(--navy), var(--red));
-  padding: 1.25rem 1.5rem;
+.schulerco-photos {
+  margin-top: 1.75rem;
 }
 
-.affiliate-badge a {
-  max-width: 960px;
-  margin: 0 auto;
-  display: flex;
+.schulerco-link {
+  text-align: center;
+  margin: 2rem 0 0;
+}
+
+.schulerco-link a {
+  display: inline-flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.6rem;
   text-decoration: none;
   color: white;
+  background: linear-gradient(135deg, var(--navy), var(--red));
+  padding: 0.6rem 1.25rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.9rem;
 }
 
-.affiliate-badge img {
-  height: 64px;
+.schulerco-link img {
+  height: 32px;
   width: auto;
-  flex-shrink: 0;
-}
-
-.affiliate-badge span {
-  font-size: 0.95rem;
-  line-height: 1.4;
-}
-
-.affiliate-badge strong {
-  font-weight: 800;
+  border-radius: 50%;
 }
 
 footer {
