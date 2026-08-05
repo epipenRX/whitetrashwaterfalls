@@ -1,9 +1,9 @@
 :root {
-  --blue: #1a8fd1;
-  --deep-blue: #0f5c8a;
-  --light-blue: #eaf6fb;
-  --sun: #ffb703;
-  --coral: #fb5607;
+  --navy: #0f2c4d;
+  --navy-light: #1d4d7a;
+  --cream: #f5f1e6;
+  --rust: #c13f0d;
+  --red: #931714;
   --text: #1c2a2f;
 }
 
@@ -24,7 +24,7 @@ h1, h2, h3 {
 }
 
 header {
-  background: linear-gradient(180deg, var(--deep-blue), var(--blue));
+  background: linear-gradient(180deg, var(--navy), var(--navy-light));
   color: white;
   padding: 3rem 1.5rem 2rem;
   text-align: center;
@@ -46,7 +46,7 @@ header h1 {
   margin: 0 0 0.75rem;
   font-size: 1.15rem;
   font-weight: 600;
-  color: var(--sun);
+  color: #f0a35c;
 }
 
 .focus-tag {
@@ -65,7 +65,7 @@ header h1 {
   display: block;
   width: fit-content;
   margin: 0 auto;
-  background: var(--coral);
+  background: var(--red);
   color: white;
   font-weight: 700;
   text-decoration: none;
@@ -87,24 +87,24 @@ header h1 {
   justify-content: center;
   gap: 1.5rem;
   background: white;
-  border-bottom: 1px solid #e0e9ec;
+  border-bottom: 1px solid #e4dfd2;
   padding: 0.75rem 1rem;
   flex-wrap: wrap;
 }
 
 .site-nav a {
-  color: var(--deep-blue);
+  color: var(--navy);
   text-decoration: none;
   font-weight: 700;
   font-size: 0.9rem;
 }
 
 .site-nav a:hover {
-  color: var(--coral);
+  color: var(--red);
 }
 
 .hero-banner {
-  background: linear-gradient(180deg, var(--blue), var(--light-blue) 90%);
+  background: linear-gradient(180deg, var(--navy-light), var(--cream) 90%);
   padding: 0 0 1rem;
 }
 
@@ -124,7 +124,7 @@ header h1 {
 }
 
 .band-pale {
-  background: var(--light-blue);
+  background: var(--cream);
 }
 
 .section-inner {
@@ -133,7 +133,7 @@ header h1 {
 }
 
 h2 {
-  color: var(--deep-blue);
+  color: var(--navy);
   font-size: 1.75rem;
   margin-bottom: 0.4rem;
 }
@@ -141,7 +141,7 @@ h2 {
 .section-intro {
   margin-top: 0;
   margin-bottom: 1.75rem;
-  color: #4a5c62;
+  color: #5c6a63;
 }
 
 .card-grid {
@@ -154,18 +154,18 @@ h2 {
   background: white;
   border-radius: 10px;
   padding: 1.25rem 1.5rem;
-  box-shadow: 0 2px 6px rgba(15, 92, 138, 0.12);
-  border-top: 4px solid var(--sun);
+  box-shadow: 0 2px 6px rgba(15, 44, 77, 0.12);
+  border-top: 4px solid var(--rust);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 14px rgba(15, 92, 138, 0.18);
+  box-shadow: 0 6px 14px rgba(15, 44, 77, 0.18);
 }
 
 #sound-familiar .card {
-  border-top-color: var(--coral);
+  border-top-color: var(--red);
 }
 
 #sound-familiar .card-grid {
@@ -180,7 +180,7 @@ h2 {
 
 .card h3 {
   margin-top: 0;
-  color: var(--deep-blue);
+  color: var(--navy);
   font-size: 1.1rem;
 }
 
@@ -195,7 +195,7 @@ h2 {
   background: white;
   border-radius: 10px;
   padding: 1.5rem;
-  box-shadow: 0 2px 6px rgba(15, 92, 138, 0.12);
+  box-shadow: 0 2px 6px rgba(15, 44, 77, 0.12);
 }
 
 .about-grid > img {
@@ -210,7 +210,7 @@ h2 {
 
 .about-text .quote {
   font-style: italic;
-  color: var(--deep-blue);
+  color: var(--navy);
   font-weight: 600;
 }
 
@@ -237,7 +237,7 @@ h2 {
   background: white;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 2px 6px rgba(15, 92, 138, 0.12);
+  box-shadow: 0 2px 6px rgba(15, 44, 77, 0.12);
 }
 
 .photo-grid img {
@@ -250,7 +250,7 @@ h2 {
 .photo-grid figcaption {
   padding: 0.75rem 1rem;
   font-size: 0.9rem;
-  color: #4a5c62;
+  color: #5c6a63;
 }
 
 .contact-list {
@@ -258,7 +258,7 @@ h2 {
   background: white;
   border-radius: 10px;
   padding: 1.25rem 1.5rem;
-  box-shadow: 0 2px 6px rgba(15, 92, 138, 0.12);
+  box-shadow: 0 2px 6px rgba(15, 44, 77, 0.12);
 }
 
 .contact-list li {
@@ -266,11 +266,11 @@ h2 {
 }
 
 .contact-list a {
-  color: var(--deep-blue);
+  color: var(--navy);
 }
 
 .affiliate-badge {
-  background: linear-gradient(135deg, #1b8f7a, #ff8552);
+  background: linear-gradient(135deg, var(--navy), var(--red));
   padding: 1.25rem 1.5rem;
 }
 
